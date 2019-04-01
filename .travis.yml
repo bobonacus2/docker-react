@@ -7,7 +7,7 @@ service:
 
 #tag with a name rather than finding and copying the ID -t
 before_install:
-  - docker build -t dkr - f Dockerfile.dev .
+  - docker build -t dkr -f Dockerfile.dev .
 
 # -- -- coverage as npm run test waits for further input
 script:
