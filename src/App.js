@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and it will do stuff .... lets check!
+            Edit <code>src/App.js</code> and it will do stuff .... I was changed on the freature branch
           </p>
           <a
             className="App-link"
