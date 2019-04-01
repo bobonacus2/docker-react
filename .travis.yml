@@ -7,8 +7,8 @@ service:
 
 #tag with a name rather than finding and copying the ID -t
 before_install:
-  - docker build -t bobonacus2/docker-react - f Dockerfile.dev .
+  - docker build -t dkr - f Dockerfile.dev .
 
 # -- -- coverage as npm run test waits for further input
 script:
-  - docker run bobonacus2/docker-react npm run test -- -- coverage
+  - docker run dkr npm run test -- -- coverage
